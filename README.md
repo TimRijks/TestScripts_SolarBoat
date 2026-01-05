@@ -1,8 +1,11 @@
 # Sensor Research
 
 Repository: TestScripts_SolarBoat
+
 Author: Tim Rijks, Jochem Wansink
+
 Project: Semester 3 Sensor Research – HAN Solarboat
+
 Academic Year: 2025–2026
 
 ## 1. Introduction
