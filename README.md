@@ -19,13 +19,16 @@ The scripts in this repository are used for data gathering and validation of var
 ## 3. Repository Structure
 ```
 TestScripts_SolarBoat/
-├── README.md                # Repository documentation (This file)
-├── scripts/                 # Sensor test scripts for Ultrasonic sensors
-├── main/                    # scripts used for gathering IMU data
-└── main-backup              # Several historic backups
+├── README.md                       # Repository documentation (This file)
+├── scripts/                        # Sensor test scripts for Ultrasonic sensors
+├── main/                           # Scripts used for gathering IMU data
+├── Grafana dashboard template/     # Json export of the used dashboard 
+└── Database exports/               # SQL export of the database tables
 ```
 
-Some of the files listed in this github are build as a library to be usable in the future. Also some files are standalone while others are working together.
+Some of the files listed in this github are build as a library to be usable in the future. 
+
+Also some files are standalone while others are working together.
 
 ## 4. Requirements
 
@@ -45,10 +48,15 @@ Required Python libraries:
 
 Access to target sensors via USB, serial interface, or GPIO
 
-## 5. Github information
+## 5. Database & Grafana
+The grafana export is in json format so it can be imported as a new dashboard in the future.
+
+The database has been exported as SQL-exports these can be imported in future databases that support this type of export.
+
+## 6. Github information
 The repository is available at: https://github.com/TimRijks/TestScripts_SolarBoat/tree/main
 
-## 6. Research Integration
+## 7. Research Integration
 
 This repository functions as a supporting software artifact for the sensor research component of the Solarboat project. The scripts contribute directly to the data collection and validation process described in the accompanying research report.
 
